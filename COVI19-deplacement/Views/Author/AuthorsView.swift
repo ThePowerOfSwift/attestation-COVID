@@ -44,10 +44,7 @@ struct AuthorsView: View {
 					HStack {
 						Text("author.list.add.new")
 						Image(systemName: "plus")
-							
-					}
-					
-					
+					}					
 				}
 				.sheet(isPresented: self.$showModal) {
 					AddAuthorView()

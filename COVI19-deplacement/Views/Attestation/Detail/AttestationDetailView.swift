@@ -7,12 +7,13 @@
 //
 
 import SwiftUI
+import PDFKit
 
 struct AttestationDetailView: View {
 	var attestation: Attestation
 	@State private var showModal = false
 	@State private var showDetailModal = false
-
+	@State private var isSharePresented: Bool = false
 	
     var body: some View {
 		NavigationView{
@@ -33,21 +34,19 @@ struct AttestationDetailView: View {
 			}
 			.listStyle(GroupedListStyle())
 			.navigationBarTitle(Text("attestation.add.title"))
-			.navigationBarItems(trailing:
-				Button(action: {
-					self.showDetailModal.toggle()
-				}) {
-					HStack {
-						Image(systemName: "doc")
-							.font(.body)
-						Text("attestation.show.pdf")
-							.fontWeight(.semibold)
-							.font(.body)
-					}
-				}.sheet(isPresented: self.$showDetailModal){
-					PDFKitView(pdf_data: self.attestation.pdf!)
-				}
-            )
+				.navigationBarItems(trailing: Button(action: {
+						self.showDetailModal.toggle()
+					}) {
+						HStack {
+							Text("attestation.show.pdf")
+								.fontWeight(.semibold)
+								.font(.body)
+							Image(systemName: "doc")
+								.font(.body)
+						}
+					}.sheet(isPresented: self.$showDetailModal){
+						PDFKitView(pdf_data: self.attestation.pdf!)
+					})
 		}
     }
 }

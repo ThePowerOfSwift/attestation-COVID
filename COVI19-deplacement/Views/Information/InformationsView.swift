@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import SwifterSwift
 
 struct InformationsView: View {
 	
@@ -21,11 +22,23 @@ struct InformationsView: View {
 				Section(header: Text("information.section.2.title")) {
 					Text("information.section.2.content")
 						.font(.body)
+					Text("information.section.2.content.2")
+						.font(.body)
+						.onTapGesture {
+							if let url = URL(string: "https://media.interieur.gouv.fr/deplacement-covid-19/") {
+								UIApplication.shared.open(url)
+							}
+					}
 				}
 				
-				Section(header: Text("information.section.3.title"), footer: Text("information.section.3.footer")) {
+				Section(header: Text("information.section.3.title"), footer: Text("information.section.3.footer \(UIApplication.shared.displayName ?? "") \(UIApplication.shared.version ?? "")")) {
 					Text("information.section.3.content")
 						.font(.body)
+						.onTapGesture {
+							if let url = URL(string: "https://github.com/phoenisis/attestation-COVID") {
+								UIApplication.shared.open(url)
+							}
+					}
 				}
 			}
 			.listStyle(GroupedListStyle())

@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 struct Reason: Hashable {
 	let key: String
 	let label: String

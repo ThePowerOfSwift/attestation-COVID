@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  COVI19-deplacement
+
+  Created by Quentin PIDOUX on 12/04/2020.
+  Copyright © 2020 Quentin PIDOUX. All rights reserved.
+*/
+
+"tabbar.create"       = "Create";
+"tabbar.attestations" = "My attestations";
+"tabbar.profiles"     = "Identities";
+"tabbar.information"  = "Informations";
+
+"author.add.section.name" = "Lastname and firstname";
+"author.add.lastname"     = "Your lastname";
+"author.add.firstname"    = "Your firstName";
+
+"author.add.section.birth" = "Date and place of birth";
+"author.add.birthdate"     = "Birthdate";
+"author.add.birthplace"    = "Birthplace";
+
+"author.add.section.address" = "Adresse";
+"author.add.streetname"      = "Adresse";
+"author.add.city"            = "City";
+"author.add.zipcode"         = "Zipcode";
+
+"author.add.new.author" = "Add identity";
+"author.add.new.save"   = "Save";
+
+
+"author.list.title"       = "List of identities";
+"author.list.add.new"     = "Add a new identity";
+"author.list.added.at %@" = "Added the %@";
+"author.list.born.at %@"  = "Born the %@";
+
+"information.title"             = "Informations";
+"information.section.1.title"   = "Datas";
+"information.section.1.content" = "All the data present is only stored on this device \n\nNo information is transmitted, your data stays warm in your device";
+"information.section.2.title"   = "Legals";
+"information.section.2.content" = "This application is not affiliated to the French state, this could imply an invalid validity of the QR code provided if they ever had to change following developments implemented by the Ministry of the Interior";
+"information.section.2.content.2" = "In case of any doubt, please refer to the occicial website: https://media.interieur.gouv.fr/deplacement-covid-19";
+"information.section.3.title"   = "Informations";
+"information.section.3.footer %@ %@"  = "%@ Version %@";
+"information.section.3.content" = "Sources code available at https://github.com/phoenisis/attestation-COVID";
+
+"attestation.created.at %@" = "Created the %@";
+"attestation.expired.at %@" = "Expired the %@";
+
+"attestations.title"            = "Attestations";
+"attestations.section.active"   = "Actives attestations";
+"attestations.section.inactive" = "Outdated attestations";
+"attestations.empty"            = "No attestation at the time";
+
+"attestation.add.title"               = "Attestation";
+"attestation.add.section.who"         = "Who need the attestation ?";
+"attestation.add.who"                 = "Identity";
+"attestation.add.section.reason"      = "Why you need to move out ?";
+"attestation.add.button"              = "Create";
+"attestation.add.alert.dismiss"       = "Ok";
+"attestation.add.alert.error.title"   = "An issue append";
+"attestation.add.alert.error.body"    = "Your attestation couldn't be generated";
+"attestation.add.alert.success.title" = "Operation succeeded";
+"attestation.add.alert.success.body"  = "You've generated your attestation";
+
+"attestation.show.pdf" = "Show the PDF";
+"attestation.share.pdf" = "Share";
+
+"attestation.reason.work"    = "🧑‍🔧 Business Travel";
+"attestation.reason.food"    = "🥖 Food shopping";
+"attestation.reason.health"  = "💊 Health";
+"attestation.reason.familly" = "👨‍👩‍👧‍👦 Family matters";
+"attestation.reason.sport"   = "🏃‍♂️ Sport / 🐶 animals";
+"attestation.reason.justice" = "👨‍⚖️ Judicial";
+"attestation.reason.mission" = "⛑ General interest";
+

@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  COVI19-deplacement
+
+  Created by Quentin PIDOUX on 12/04/2020.
+  Copyright © 2020 Quentin PIDOUX. All rights reserved.
+*/
+
+"tabbar.create"       = "Générer";
+"tabbar.attestations" = "Mes attestations";
+"tabbar.profiles"     = "Profiles";
+"tabbar.information"  = "Informations";
+
+"author.add.section.name" = "Nom et Prénom";
+"author.add.lastname"     = "Votre nom";
+"author.add.firstname"    = "Votre prénom";
+
+"author.add.section.birth" = "Date et lieu Naissance";
+"author.add.birthdate"     = "Date de naissance";
+"author.add.birthplace"    = "Lieu de naissance";
+
+"author.add.section.address" = "Adresse";
+"author.add.streetname"      = "Adresse";
+"author.add.city"            = "Ville";
+"author.add.zipcode"         = "Code Postal";
+
+"author.add.new.author" = "Ajouter un profile";
+"author.add.new.save"   = "Enregistrer";
+
+
+"author.list.title"       = "Liste des profiles";
+"author.list.add.new"     = "Ajouter un profile";
+"author.list.added.at %@" = "Ajouté le %@";
+"author.list.born.at %@"  = "Né le %@";
+
+"information.title"             = "Informations";
+"information.section.1.title"   = "Données";
+"information.section.1.content" = "Toutes les données présentes ne sont stocké que sur cet appareil \n\nAucune information n'est transmise, vos données restent au chaud dans votre appareil";
+"information.section.2.title"   = "Légale";
+"information.section.2.content" = "Cette application n'est pas affiliée à l'État Français, cela pourrait impliquer une non-validité des QR code fourni si jamais ceux-ci devaient changer suite à des évolutions mises en place par le ministère de l'intérieur";
+"information.section.2.content.2" = "En cas de doute, n'hésitez pas à vous rendre sur le site officiel: https://media.interieur.gouv.fr/deplacement-covid-19";
+"information.section.3.title"   = "Informations";
+"information.section.3.footer %@ %@"  = "%@ Version %@";
+"information.section.3.content" = "Sources disponible sur https://github.com/phoenisis/attestation-COVID";
+
+"attestation.created.at %@" = "Créer le %@";
+"attestation.expired.at %@" = "Expire le %@";
+
+"attestations.title"            = "Attestations";
+"attestations.section.active"   = "Attestations actives";
+"attestations.section.inactive" = "Attestations périmer";
+"attestations.empty"            = "Aucune attestation pour le moment";
+
+"attestation.add.title"               = "Attestation";
+"attestation.add.section.who"         = "Qui à besoin de l'attestation ?";
+"attestation.add.who"                 = "Profile";
+"attestation.add.section.reason"      = "Motifs de sortie";
+"attestation.add.button"              = "Générer";
+"attestation.add.alert.dismiss"       = "D'accord";
+"attestation.add.alert.error.title"   = "Une erreur est survenu";
+"attestation.add.alert.error.body"    = "Votre attestation n'a pu etre generer";
+"attestation.add.alert.success.title" = "Succès de l'opération";
+"attestation.add.alert.success.body"  = "Vous avez générer une nouvelle attestation";
+
+"attestation.show.pdf" = "Afficher le PDF";
+"attestation.share.pdf" = "Partager";
+
+"attestation.reason.work"    = "🧑‍🔧 Déplacements travail";
+"attestation.reason.food"    = "🥖 Courses";
+"attestation.reason.health"  = "💊 Santé";
+"attestation.reason.familly" = "👨‍👩‍👧‍👦 Raison familliale";
+"attestation.reason.sport"   = "🏃‍♂️ Sport / 🐶 animaux";
+"attestation.reason.justice" = "👨‍⚖️ Judiciaire";
+"attestation.reason.mission" = "⛑ Intérêt général";

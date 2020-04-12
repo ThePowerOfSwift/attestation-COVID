@@ -13,7 +13,6 @@
 		66CE6F452442772F00915F7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F442442772F00915F7F /* ContentView.swift */; };
 		66CE6F472442773300915F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CE6F462442773300915F7F /* Assets.xcassets */; };
 		66CE6F4A2442773300915F7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CE6F492442773300915F7F /* Preview Assets.xcassets */; };
-		66CE6F4D2442773300915F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CE6F4B2442773300915F7F /* LaunchScreen.storyboard */; };
 		66CE6F582442773400915F7F /* COVI19_deplacementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F572442773400915F7F /* COVI19_deplacementTests.swift */; };
 		66CE6F632442773400915F7F /* COVI19_deplacementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F622442773400915F7F /* COVI19_deplacementUITests.swift */; };
 		66CE6F722442779100915F7F /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 66CE6F712442779100915F7F /* SwifterSwift */; };
@@ -34,7 +33,9 @@
 		66E99A7A24436FDD00595FF9 /* AttestationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A7924436FDD00595FF9 /* AttestationList.swift */; };
 		66E99A7C2443767E00595FF9 /* AttestationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A7B2443767E00595FF9 /* AttestationItemView.swift */; };
 		66E99A7E244379FF00595FF9 /* AttestationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A7D244379FF00595FF9 /* AttestationDetailView.swift */; };
-		66E99A822443978100595FF9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E99A812443978100595FF9 /* Localizable.strings */; };
+		66E99A852443A8D600595FF9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E99A872443A8D600595FF9 /* Localizable.strings */; };
+		66E99A8A2443BD0700595FF9 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A892443BD0700595FF9 /* ActivityViewController.swift */; };
+		66E99A962443C89500595FF9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E99A982443C89500595FF9 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +63,6 @@
 		66CE6F442442772F00915F7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66CE6F462442773300915F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CE6F492442773300915F7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		66CE6F4C2442773300915F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66CE6F4E2442773300915F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66CE6F532442773400915F7F /* COVI19-deplacementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVI19-deplacementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE6F572442773400915F7F /* COVI19_deplacementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVI19_deplacementTests.swift; sourceTree = "<group>"; };
@@ -86,8 +86,12 @@
 		66E99A7924436FDD00595FF9 /* AttestationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationList.swift; sourceTree = "<group>"; };
 		66E99A7B2443767E00595FF9 /* AttestationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationItemView.swift; sourceTree = "<group>"; };
 		66E99A7D244379FF00595FF9 /* AttestationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationDetailView.swift; sourceTree = "<group>"; };
-		66E99A812443978100595FF9 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		66E99A832443997100595FF9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		66E99A862443A8D600595FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		66E99A882443A8E400595FF9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		66E99A892443BD0700595FF9 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		66E99A972443C89500595FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		66E99A9A2443C89800595FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
+		66E99A9C2443C89A00595FF9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +149,9 @@
 				66CE6F8324433CB100915F7F /* Views */,
 				66CE6F3D2442772F00915F7F /* AppDelegate.swift */,
 				66CE6F3F2442772F00915F7F /* SceneDelegate.swift */,
+				66E99A982443C89500595FF9 /* Launch Screen.storyboard */,
 				66CE6F562442773400915F7F /* COVI19-deplacementTests */,
 				66CE6F462442773300915F7F /* Assets.xcassets */,
-				66CE6F4B2442773300915F7F /* LaunchScreen.storyboard */,
 				66CE6F4E2442773300915F7F /* Info.plist */,
 				66CE6F412442772F00915F7F /* COVI19_deplacement.xcdatamodeld */,
 				66CE6F482442773300915F7F /* Preview Content */,
@@ -208,6 +212,7 @@
 				66CE6F8C2443528300915F7F /* Attestation */,
 				66CE6F8624434B7E00915F7F /* Author */,
 				66CE6F8924434EEC00915F7F /* Information */,
+				66E99A892443BD0700595FF9 /* ActivityViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,7 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				66E99A7724436ED400595FF9 /* certificate.pdf */,
-				66E99A812443978100595FF9 /* Localizable.strings */,
+				66E99A872443A8D600595FF9 /* Localizable.strings */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -372,10 +377,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CE6F4D2442773300915F7F /* LaunchScreen.storyboard in Resources */,
 				66CE6F4A2442773300915F7F /* Preview Assets.xcassets in Resources */,
-				66E99A822443978100595FF9 /* Localizable.strings in Resources */,
+				66E99A852443A8D600595FF9 /* Localizable.strings in Resources */,
 				66E99A7824436ED400595FF9 /* certificate.pdf in Resources */,
+				66E99A962443C89500595FF9 /* Launch Screen.storyboard in Resources */,
 				66CE6F472442773300915F7F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +409,7 @@
 				66E99A7E244379FF00595FF9 /* AttestationDetailView.swift in Sources */,
 				66E99A7C2443767E00595FF9 /* AttestationItemView.swift in Sources */,
 				66CE6F8524433CD600915F7F /* AuthorsView.swift in Sources */,
+				66E99A8A2443BD0700595FF9 /* ActivityViewController.swift in Sources */,
 				66CE6F9424435D6500915F7F /* Reasons.swift in Sources */,
 				66E99A7A24436FDD00595FF9 /* AttestationList.swift in Sources */,
 				66CE6F8824434B9C00915F7F /* AuthorsRow.swift in Sources */,
@@ -455,13 +461,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		66CE6F4B2442773300915F7F /* LaunchScreen.storyboard */ = {
+		66E99A872443A8D600595FF9 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				66CE6F4C2442773300915F7F /* Base */,
-				66E99A832443997100595FF9 /* fr */,
+				66E99A862443A8D600595FF9 /* en */,
+				66E99A882443A8E400595FF9 /* fr */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		66E99A982443C89500595FF9 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E99A972443C89500595FF9 /* Base */,
+				66E99A9A2443C89800595FF9 /* en */,
+				66E99A9C2443C89A00595FF9 /* fr */,
+			);
+			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

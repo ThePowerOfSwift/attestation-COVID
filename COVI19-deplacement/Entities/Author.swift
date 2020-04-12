@@ -25,7 +25,7 @@ extension Author {
 class AuthorData: ObservableObject {
 	@Published var firstName: String = ""
 	@Published var lastName: String = ""
-	@Published var birthdate: Date = Date(calendar: nil, timeZone: nil, era: nil, year: 2000, month: 1, day: 1, hour: nil, minute: nil, second: nil, nanosecond: nil) ?? Date()
+	@Published var birthdate: Date = Date()?.adding(.year, value: -20) ?? Date()
 	@Published var birthPlace: String = ""
 	@Published var address: AddressData = AddressData()
 	

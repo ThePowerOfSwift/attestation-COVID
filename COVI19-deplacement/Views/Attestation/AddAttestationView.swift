@@ -19,13 +19,13 @@ struct AddAttestationView: View {
     @State private var showingAlert = false
 
 	var raisons: [Reason] = [
-		Reason(key: "travail"	, label: "🧑‍🔧 Déplacements travail"),
-		Reason(key: "courses"	, label: "🥖 Courses"),
-		Reason(key: "sante"		, label: "💊 Santé"),
-		Reason(key: "famille"	, label: "👨‍👩‍👧‍👦 Raison familliale"),
-		Reason(key: "sport"		, label: "🏃‍♂️ Sport / 🐶 animaux"),
-		Reason(key: "judiciaire", label: "👨‍⚖️ Judiciaire"),
-		Reason(key: "missions"	, label: "⛑ Intérêt général")
+		Reason(key: "travail"	, label: "attestation.reason.work"),
+		Reason(key: "courses"	, label: "attestation.reason.food"),
+		Reason(key: "sante"		, label: "attestation.reason.health"),
+		Reason(key: "famille"	, label: "attestation.reason.familly"),
+		Reason(key: "sport"		, label: "attestation.reason.sport"),
+		Reason(key: "judiciaire", label: "attestation.reason.justice"),
+		Reason(key: "missions"	, label: "attestation.reason.mission")
 	]
 	
     @State var alertTextTop: String = ""
@@ -63,11 +63,15 @@ struct AddAttestationView: View {
             
             .navigationBarTitle(Text("attestation.add.title"))
             .navigationBarItems(trailing:
-                Button("attestation.add.button") {
-                    self.save()
-                }.alert(isPresented: $showingAlert) {
-                    Alert(title: Text(alertTextTop), message: Text(alertMessage), dismissButton: .default(Text("attestation.add.alert.dismiss")))
-                }.disabled(disableButton)
+				HStack {
+					Button("attestation.add.button") {
+						self.save()
+					}.alert(isPresented: $showingAlert) {
+						Alert(title: Text(LocalizedStringKey(alertTextTop)), message: Text(LocalizedStringKey(alertMessage)), dismissButton: .default(Text("attestation.add.alert.dismiss")))
+					}.disabled(disableButton)
+					Image(systemName: "plus")
+				}
+               
                 
             )
         }
@@ -161,7 +165,8 @@ struct MultipleSelectionRow: View {
     var body: some View {
         Button(action: self.action) {
             HStack {
-                Text(self.title)
+				
+				Text(verbatim: title.localized())
 					.font(.body)
 					.foregroundColor(Color.init("darkText"))
                 if self.isSelected {
@@ -172,3 +177,9 @@ struct MultipleSelectionRow: View {
         }.foregroundColor(Color.black)
     }
 }
+
+//extension String {
+//    var localized: String {
+//        return NSLocalizedString(self, comment: "")
+//    }
+//}
