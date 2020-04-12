@@ -8,7 +8,6 @@
 
 import Foundation
 import CoreData
-import PLogger
 
 class AttestationData {
 	let expiredAt: Date = Date().adding(.hour, value: 1)
@@ -38,7 +37,6 @@ class AttestationData {
 		do {
 			try context.save()
 		} catch let error {
-			PLogger.error(error)
 			return error
 		}
 		

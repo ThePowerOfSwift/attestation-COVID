@@ -8,7 +8,6 @@
 
 import SwiftUI
 import CoreData
-import PLogger
 
 struct ContentView: View {
     @State private var selection = 0

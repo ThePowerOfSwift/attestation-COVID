@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		66CE6F3E2442772F00915F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F3D2442772F00915F7F /* AppDelegate.swift */; };
 		66CE6F402442772F00915F7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F3F2442772F00915F7F /* SceneDelegate.swift */; };
-		66CE6F432442772F00915F7F /* COVI19_deplacement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F412442772F00915F7F /* COVI19_deplacement.xcdatamodeld */; };
+		66CE6F432442772F00915F7F /* attestation_COVID.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F412442772F00915F7F /* attestation_COVID.xcdatamodeld */; };
 		66CE6F452442772F00915F7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F442442772F00915F7F /* ContentView.swift */; };
 		66CE6F472442773300915F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CE6F462442773300915F7F /* Assets.xcassets */; };
 		66CE6F4A2442773300915F7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CE6F492442773300915F7F /* Preview Assets.xcassets */; };
 		66CE6F582442773400915F7F /* COVI19_deplacementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F572442773400915F7F /* COVI19_deplacementTests.swift */; };
 		66CE6F632442773400915F7F /* COVI19_deplacementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F622442773400915F7F /* COVI19_deplacementUITests.swift */; };
 		66CE6F722442779100915F7F /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 66CE6F712442779100915F7F /* SwifterSwift */; };
-		66CE6F75244277BF00915F7F /* PLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 66CE6F74244277BF00915F7F /* PLogger */; };
 		66CE6F7A24430EFF00915F7F /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F7924430EFF00915F7F /* Author.swift */; };
 		66CE6F7C244311E100915F7F /* AddAuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F7B244311E100915F7F /* AddAuthorView.swift */; };
 		66CE6F7E244318D500915F7F /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F7D244318D500915F7F /* Address.swift */; };
@@ -64,10 +63,10 @@
 		66CE6F462442773300915F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CE6F492442773300915F7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66CE6F4E2442773300915F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66CE6F532442773400915F7F /* COVI19-deplacementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVI19-deplacementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CE6F532442773400915F7F /* attestation-COVIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "attestation-COVIDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE6F572442773400915F7F /* COVI19_deplacementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVI19_deplacementTests.swift; sourceTree = "<group>"; };
 		66CE6F592442773400915F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66CE6F5E2442773400915F7F /* COVI19-deplacementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVI19-deplacementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CE6F5E2442773400915F7F /* attestation-COVIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "attestation-COVIDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE6F622442773400915F7F /* COVI19_deplacementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVI19_deplacementUITests.swift; sourceTree = "<group>"; };
 		66CE6F642442773400915F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66CE6F7924430EFF00915F7F /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
@@ -100,7 +99,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CE6F722442779100915F7F /* SwifterSwift in Frameworks */,
-				66CE6F75244277BF00915F7F /* PLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +122,8 @@
 		66CE6F312442772F00915F7F = {
 			isa = PBXGroup;
 			children = (
-				66CE6F3C2442772F00915F7F /* COVI19-deplacement */,
-				66CE6F612442773400915F7F /* COVI19-deplacementUITests */,
+				66CE6F3C2442772F00915F7F /* attestation-COVID */,
+				66CE6F612442773400915F7F /* attestation-COVIDUITests */,
 				66CE6F3B2442772F00915F7F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,13 +132,13 @@
 			isa = PBXGroup;
 			children = (
 				66CE6F3A2442772F00915F7F /* Attestation.app */,
-				66CE6F532442773400915F7F /* COVI19-deplacementTests.xctest */,
-				66CE6F5E2442773400915F7F /* COVI19-deplacementUITests.xctest */,
+				66CE6F532442773400915F7F /* attestation-COVIDTests.xctest */,
+				66CE6F5E2442773400915F7F /* attestation-COVIDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66CE6F3C2442772F00915F7F /* COVI19-deplacement */ = {
+		66CE6F3C2442772F00915F7F /* attestation-COVID */ = {
 			isa = PBXGroup;
 			children = (
 				66E99A7F2443874E00595FF9 /* Misc */,
@@ -150,13 +148,13 @@
 				66CE6F3D2442772F00915F7F /* AppDelegate.swift */,
 				66CE6F3F2442772F00915F7F /* SceneDelegate.swift */,
 				66E99A982443C89500595FF9 /* Launch Screen.storyboard */,
-				66CE6F562442773400915F7F /* COVI19-deplacementTests */,
+				66CE6F562442773400915F7F /* attestation-COVIDTests */,
 				66CE6F462442773300915F7F /* Assets.xcassets */,
 				66CE6F4E2442773300915F7F /* Info.plist */,
-				66CE6F412442772F00915F7F /* COVI19_deplacement.xcdatamodeld */,
+				66CE6F412442772F00915F7F /* attestation_COVID.xcdatamodeld */,
 				66CE6F482442773300915F7F /* Preview Content */,
 			);
-			path = "COVI19-deplacement";
+			path = "attestation-COVID";
 			sourceTree = "<group>";
 		};
 		66CE6F482442773300915F7F /* Preview Content */ = {
@@ -167,22 +165,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		66CE6F562442773400915F7F /* COVI19-deplacementTests */ = {
+		66CE6F562442773400915F7F /* attestation-COVIDTests */ = {
 			isa = PBXGroup;
 			children = (
 				66CE6F572442773400915F7F /* COVI19_deplacementTests.swift */,
 				66CE6F592442773400915F7F /* Info.plist */,
 			);
-			path = "COVI19-deplacementTests";
+			path = "attestation-COVIDTests";
 			sourceTree = "<group>";
 		};
-		66CE6F612442773400915F7F /* COVI19-deplacementUITests */ = {
+		66CE6F612442773400915F7F /* attestation-COVIDUITests */ = {
 			isa = PBXGroup;
 			children = (
 				66CE6F622442773400915F7F /* COVI19_deplacementUITests.swift */,
 				66CE6F642442773400915F7F /* Info.plist */,
 			);
-			path = "COVI19-deplacementUITests";
+			path = "attestation-COVIDUITests";
 			sourceTree = "<group>";
 		};
 		66CE6F7624430D1D00915F7F /* Entities */ = {
@@ -267,9 +265,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66CE6F392442772F00915F7F /* COVI19-deplacement */ = {
+		66CE6F392442772F00915F7F /* attestation-COVID */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66CE6F672442773400915F7F /* Build configuration list for PBXNativeTarget "COVI19-deplacement" */;
+			buildConfigurationList = 66CE6F672442773400915F7F /* Build configuration list for PBXNativeTarget "attestation-COVID" */;
 			buildPhases = (
 				66CE6F362442772F00915F7F /* Sources */,
 				66CE6F372442772F00915F7F /* Frameworks */,
@@ -279,18 +277,17 @@
 			);
 			dependencies = (
 			);
-			name = "COVI19-deplacement";
+			name = "attestation-COVID";
 			packageProductDependencies = (
 				66CE6F712442779100915F7F /* SwifterSwift */,
-				66CE6F74244277BF00915F7F /* PLogger */,
 			);
 			productName = "COVI19-deplacement";
 			productReference = 66CE6F3A2442772F00915F7F /* Attestation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		66CE6F522442773400915F7F /* COVI19-deplacementTests */ = {
+		66CE6F522442773400915F7F /* attestation-COVIDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66CE6F6A2442773400915F7F /* Build configuration list for PBXNativeTarget "COVI19-deplacementTests" */;
+			buildConfigurationList = 66CE6F6A2442773400915F7F /* Build configuration list for PBXNativeTarget "attestation-COVIDTests" */;
 			buildPhases = (
 				66CE6F4F2442773400915F7F /* Sources */,
 				66CE6F502442773400915F7F /* Frameworks */,
@@ -301,14 +298,14 @@
 			dependencies = (
 				66CE6F552442773400915F7F /* PBXTargetDependency */,
 			);
-			name = "COVI19-deplacementTests";
+			name = "attestation-COVIDTests";
 			productName = "COVI19-deplacementTests";
-			productReference = 66CE6F532442773400915F7F /* COVI19-deplacementTests.xctest */;
+			productReference = 66CE6F532442773400915F7F /* attestation-COVIDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		66CE6F5D2442773400915F7F /* COVI19-deplacementUITests */ = {
+		66CE6F5D2442773400915F7F /* attestation-COVIDUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66CE6F6D2442773400915F7F /* Build configuration list for PBXNativeTarget "COVI19-deplacementUITests" */;
+			buildConfigurationList = 66CE6F6D2442773400915F7F /* Build configuration list for PBXNativeTarget "attestation-COVIDUITests" */;
 			buildPhases = (
 				66CE6F5A2442773400915F7F /* Sources */,
 				66CE6F5B2442773400915F7F /* Frameworks */,
@@ -319,9 +316,9 @@
 			dependencies = (
 				66CE6F602442773400915F7F /* PBXTargetDependency */,
 			);
-			name = "COVI19-deplacementUITests";
+			name = "attestation-COVIDUITests";
 			productName = "COVI19-deplacementUITests";
-			productReference = 66CE6F5E2442773400915F7F /* COVI19-deplacementUITests.xctest */;
+			productReference = 66CE6F5E2442773400915F7F /* attestation-COVIDUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -347,7 +344,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 66CE6F352442772F00915F7F /* Build configuration list for PBXProject "COVI19-deplacement" */;
+			buildConfigurationList = 66CE6F352442772F00915F7F /* Build configuration list for PBXProject "attestation-COVID" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -359,15 +356,14 @@
 			mainGroup = 66CE6F312442772F00915F7F;
 			packageReferences = (
 				66CE6F702442779100915F7F /* XCRemoteSwiftPackageReference "SwifterSwift" */,
-				66CE6F73244277BF00915F7F /* XCRemoteSwiftPackageReference "PLogger" */,
 			);
 			productRefGroup = 66CE6F3B2442772F00915F7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66CE6F392442772F00915F7F /* COVI19-deplacement */,
-				66CE6F522442773400915F7F /* COVI19-deplacementTests */,
-				66CE6F5D2442773400915F7F /* COVI19-deplacementUITests */,
+				66CE6F392442772F00915F7F /* attestation-COVID */,
+				66CE6F522442773400915F7F /* attestation-COVIDTests */,
+				66CE6F5D2442773400915F7F /* attestation-COVIDUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -416,7 +412,7 @@
 				66CE6F3E2442772F00915F7F /* AppDelegate.swift in Sources */,
 				66CE6F8224431DCA00915F7F /* KeyboardModifier.swift in Sources */,
 				66CE6F902443538400915F7F /* PDFHelper.swift in Sources */,
-				66CE6F432442772F00915F7F /* COVI19_deplacement.xcdatamodeld in Sources */,
+				66CE6F432442772F00915F7F /* attestation_COVID.xcdatamodeld in Sources */,
 				66CE6F8B24434F0200915F7F /* InformationsView.swift in Sources */,
 				66CE6F92244353D000915F7F /* PDFView.swift in Sources */,
 				66CE6F452442772F00915F7F /* ContentView.swift in Sources */,
@@ -450,12 +446,12 @@
 /* Begin PBXTargetDependency section */
 		66CE6F552442773400915F7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 66CE6F392442772F00915F7F /* COVI19-deplacement */;
+			target = 66CE6F392442772F00915F7F /* attestation-COVID */;
 			targetProxy = 66CE6F542442773400915F7F /* PBXContainerItemProxy */;
 		};
 		66CE6F602442773400915F7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 66CE6F392442772F00915F7F /* COVI19-deplacement */;
+			target = 66CE6F392442772F00915F7F /* attestation-COVID */;
 			targetProxy = 66CE6F5F2442773400915F7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -604,15 +600,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"COVI19-deplacement/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"attestation-COVID/Preview Content\"";
 				DEVELOPMENT_TEAM = APQPM37LES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "COVI19-deplacement/Info.plist";
+				INFOPLIST_FILE = "attestation-COVID/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Connectiv-IT.COVI19-deplacement";
+				PRODUCT_BUNDLE_IDENTIFIER = "Connectiv-IT.attestation-COVID";
 				PRODUCT_NAME = Attestation;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -624,15 +620,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"COVI19-deplacement/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"attestation-COVID/Preview Content\"";
 				DEVELOPMENT_TEAM = APQPM37LES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "COVI19-deplacement/Info.plist";
+				INFOPLIST_FILE = "attestation-COVID/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Connectiv-IT.COVI19-deplacement";
+				PRODUCT_BUNDLE_IDENTIFIER = "Connectiv-IT.attestation-COVID";
 				PRODUCT_NAME = Attestation;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -646,7 +642,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APQPM37LES;
-				INFOPLIST_FILE = "COVI19-deplacementTests/Info.plist";
+				INFOPLIST_FILE = "attestation-COVID/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -657,7 +653,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVI19-deplacement.app/COVI19-deplacement";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/attestation-COVID.app/attestation-COVID";
 			};
 			name = Debug;
 		};
@@ -668,7 +664,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APQPM37LES;
-				INFOPLIST_FILE = "COVI19-deplacementTests/Info.plist";
+				INFOPLIST_FILE = "attestation-COVID/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -679,7 +675,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVI19-deplacement.app/COVI19-deplacement";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/attestation-COVID.app/attestation-COVID";
 			};
 			name = Release;
 		};
@@ -689,7 +685,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APQPM37LES;
-				INFOPLIST_FILE = "COVI19-deplacementUITests/Info.plist";
+				INFOPLIST_FILE = "attestation-COVID/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -709,7 +705,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APQPM37LES;
-				INFOPLIST_FILE = "COVI19-deplacementUITests/Info.plist";
+				INFOPLIST_FILE = "attestation-COVID/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -726,7 +722,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		66CE6F352442772F00915F7F /* Build configuration list for PBXProject "COVI19-deplacement" */ = {
+		66CE6F352442772F00915F7F /* Build configuration list for PBXProject "attestation-COVID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66CE6F652442773400915F7F /* Debug */,
@@ -735,7 +731,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66CE6F672442773400915F7F /* Build configuration list for PBXNativeTarget "COVI19-deplacement" */ = {
+		66CE6F672442773400915F7F /* Build configuration list for PBXNativeTarget "attestation-COVID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66CE6F682442773400915F7F /* Debug */,
@@ -744,7 +740,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66CE6F6A2442773400915F7F /* Build configuration list for PBXNativeTarget "COVI19-deplacementTests" */ = {
+		66CE6F6A2442773400915F7F /* Build configuration list for PBXNativeTarget "attestation-COVIDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66CE6F6B2442773400915F7F /* Debug */,
@@ -753,7 +749,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66CE6F6D2442773400915F7F /* Build configuration list for PBXNativeTarget "COVI19-deplacementUITests" */ = {
+		66CE6F6D2442773400915F7F /* Build configuration list for PBXNativeTarget "attestation-COVIDUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66CE6F6E2442773400915F7F /* Debug */,
@@ -773,14 +769,6 @@
 				minimumVersion = 5.2.0;
 			};
 		};
-		66CE6F73244277BF00915F7F /* XCRemoteSwiftPackageReference "PLogger" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/phoenisis/PLogger.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -789,21 +777,16 @@
 			package = 66CE6F702442779100915F7F /* XCRemoteSwiftPackageReference "SwifterSwift" */;
 			productName = SwifterSwift;
 		};
-		66CE6F74244277BF00915F7F /* PLogger */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 66CE6F73244277BF00915F7F /* XCRemoteSwiftPackageReference "PLogger" */;
-			productName = PLogger;
-		};
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		66CE6F412442772F00915F7F /* COVI19_deplacement.xcdatamodeld */ = {
+		66CE6F412442772F00915F7F /* attestation_COVID.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				66CE6F422442772F00915F7F /* COVI19_deplacement.xcdatamodel */,
 			);
 			currentVersion = 66CE6F422442772F00915F7F /* COVI19_deplacement.xcdatamodel */;
-			path = COVI19_deplacement.xcdatamodeld;
+			path = attestation_COVID.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

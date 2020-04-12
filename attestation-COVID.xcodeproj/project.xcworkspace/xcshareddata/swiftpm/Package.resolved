@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PLogger",
+        "repositoryURL": "https://github.com/phoenisis/PLogger.git",
+        "state": {
+          "branch": null,
+          "revision": "fe46acff6e80eca5c916173a1e7a6e14e094b459",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "SwifterSwift",
+        "repositoryURL": "https://github.com/SwifterSwift/SwifterSwift",
+        "state": {
+          "branch": null,
+          "revision": "dc813f3aa92f904a009fe543b99d5649dce7c134",
+          "version": "5.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

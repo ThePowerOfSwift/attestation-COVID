@@ -10,7 +10,6 @@ import Foundation
 import CoreData
 import SwifterSwift
 import Combine
-import PLogger
 
 extension Author {
     static func getAll() -> NSFetchRequest<Author> {
@@ -53,11 +52,6 @@ class AuthorData: ObservableObject {
 		
 		author.address = address
 		
-		do {
-			try context.save()
-			PLogger.debug("author saved")
-		} catch let error {
-			PLogger.error(error)
-		}
+		try? context.save()
 	}
 }
