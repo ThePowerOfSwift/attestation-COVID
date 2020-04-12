@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Address" representedClassName="Address" syncable="YES" codeGenerationType="class">
+        <attribute name="city" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="streetname" attributeType="String"/>
+        <attribute name="zipcode" attributeType="String"/>
+        <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="address" inverseEntity="Author"/>
+    </entity>
+    <entity name="Attestation" representedClassName="Attestation" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="expiredAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="pdf" attributeType="Binary"/>
+        <attribute name="qrCode" attributeType="String"/>
+        <relationship name="author" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="attestations" inverseEntity="Author"/>
+    </entity>
+    <entity name="Author" representedClassName="Author" syncable="YES" codeGenerationType="class">
+        <attribute name="birthDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="birthPlace" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="firstname" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lastname" attributeType="String"/>
+        <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Address" inverseName="author" inverseEntity="Address"/>
+        <relationship name="attestations" toMany="YES" deletionRule="Cascade" destinationEntity="Attestation" inverseName="author" inverseEntity="Attestation"/>
+    </entity>
+    <fetchRequest name="activesAttestations" entity="Attestation" predicateString="expiredAt &lt;= &quot;NSDate&quot;"/>
+    <fetchRequest name="expiresAttestations" entity="Attestation" predicateString="expiredAt &gt; &quot;NSDate&quot;"/>
+    <elements>
+        <element name="Address" positionX="-339.59375" positionY="399.4140625" width="128" height="118"/>
+        <element name="Attestation" positionX="-92.8828125" positionY="6.46875" width="132.26171875" height="133"/>
+        <element name="Author" positionX="-446.375" positionY="64.34375" width="134.5078125" height="163"/>
+    </elements>
 </model>

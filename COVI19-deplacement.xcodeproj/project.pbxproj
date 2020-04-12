@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,25 @@
 		66CE6F4D2442773300915F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CE6F4B2442773300915F7F /* LaunchScreen.storyboard */; };
 		66CE6F582442773400915F7F /* COVI19_deplacementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F572442773400915F7F /* COVI19_deplacementTests.swift */; };
 		66CE6F632442773400915F7F /* COVI19_deplacementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F622442773400915F7F /* COVI19_deplacementUITests.swift */; };
+		66CE6F722442779100915F7F /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 66CE6F712442779100915F7F /* SwifterSwift */; };
+		66CE6F75244277BF00915F7F /* PLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 66CE6F74244277BF00915F7F /* PLogger */; };
+		66CE6F7A24430EFF00915F7F /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F7924430EFF00915F7F /* Author.swift */; };
+		66CE6F7C244311E100915F7F /* AddAuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F7B244311E100915F7F /* AddAuthorView.swift */; };
+		66CE6F7E244318D500915F7F /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F7D244318D500915F7F /* Address.swift */; };
+		66CE6F8224431DCA00915F7F /* KeyboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F8124431DCA00915F7F /* KeyboardModifier.swift */; };
+		66CE6F8524433CD600915F7F /* AuthorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F8424433CD600915F7F /* AuthorsView.swift */; };
+		66CE6F8824434B9C00915F7F /* AuthorsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F8724434B9C00915F7F /* AuthorsRow.swift */; };
+		66CE6F8B24434F0200915F7F /* InformationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F8A24434F0200915F7F /* InformationsView.swift */; };
+		66CE6F8E244352C900915F7F /* AddAttestationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F8D244352C900915F7F /* AddAttestationView.swift */; };
+		66CE6F902443538400915F7F /* PDFHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F8F2443538400915F7F /* PDFHelper.swift */; };
+		66CE6F92244353D000915F7F /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F91244353D000915F7F /* PDFView.swift */; };
+		66CE6F9424435D6500915F7F /* Reasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE6F9324435D6500915F7F /* Reasons.swift */; };
+		66E99A762443690000595FF9 /* Attestation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A752443690000595FF9 /* Attestation.swift */; };
+		66E99A7824436ED400595FF9 /* certificate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 66E99A7724436ED400595FF9 /* certificate.pdf */; };
+		66E99A7A24436FDD00595FF9 /* AttestationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A7924436FDD00595FF9 /* AttestationList.swift */; };
+		66E99A7C2443767E00595FF9 /* AttestationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A7B2443767E00595FF9 /* AttestationItemView.swift */; };
+		66E99A7E244379FF00595FF9 /* AttestationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A7D244379FF00595FF9 /* AttestationDetailView.swift */; };
+		66E99A822443978100595FF9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E99A812443978100595FF9 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		66CE6F3A2442772F00915F7F /* COVI19-deplacement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVI19-deplacement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CE6F3A2442772F00915F7F /* Attestation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attestation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE6F3D2442772F00915F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CE6F3F2442772F00915F7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		66CE6F422442772F00915F7F /* COVI19_deplacement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = COVI19_deplacement.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +70,24 @@
 		66CE6F5E2442773400915F7F /* COVI19-deplacementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVI19-deplacementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CE6F622442773400915F7F /* COVI19_deplacementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVI19_deplacementUITests.swift; sourceTree = "<group>"; };
 		66CE6F642442773400915F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CE6F7924430EFF00915F7F /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		66CE6F7B244311E100915F7F /* AddAuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAuthorView.swift; sourceTree = "<group>"; };
+		66CE6F7D244318D500915F7F /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		66CE6F8124431DCA00915F7F /* KeyboardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardModifier.swift; sourceTree = "<group>"; };
+		66CE6F8424433CD600915F7F /* AuthorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsView.swift; sourceTree = "<group>"; };
+		66CE6F8724434B9C00915F7F /* AuthorsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsRow.swift; sourceTree = "<group>"; };
+		66CE6F8A24434F0200915F7F /* InformationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationsView.swift; sourceTree = "<group>"; };
+		66CE6F8D244352C900915F7F /* AddAttestationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAttestationView.swift; sourceTree = "<group>"; };
+		66CE6F8F2443538400915F7F /* PDFHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFHelper.swift; sourceTree = "<group>"; };
+		66CE6F91244353D000915F7F /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		66CE6F9324435D6500915F7F /* Reasons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reasons.swift; sourceTree = "<group>"; };
+		66E99A752443690000595FF9 /* Attestation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attestation.swift; sourceTree = "<group>"; };
+		66E99A7724436ED400595FF9 /* certificate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = certificate.pdf; sourceTree = "<group>"; };
+		66E99A7924436FDD00595FF9 /* AttestationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationList.swift; sourceTree = "<group>"; };
+		66E99A7B2443767E00595FF9 /* AttestationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationItemView.swift; sourceTree = "<group>"; };
+		66E99A7D244379FF00595FF9 /* AttestationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationDetailView.swift; sourceTree = "<group>"; };
+		66E99A812443978100595FF9 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		66E99A832443997100595FF9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CE6F722442779100915F7F /* SwifterSwift in Frameworks */,
+				66CE6F75244277BF00915F7F /* PLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				66CE6F3C2442772F00915F7F /* COVI19-deplacement */,
-				66CE6F562442773400915F7F /* COVI19-deplacementTests */,
 				66CE6F612442773400915F7F /* COVI19-deplacementUITests */,
 				66CE6F3B2442772F00915F7F /* Products */,
 			);
@@ -91,7 +129,7 @@
 		66CE6F3B2442772F00915F7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66CE6F3A2442772F00915F7F /* COVI19-deplacement.app */,
+				66CE6F3A2442772F00915F7F /* Attestation.app */,
 				66CE6F532442773400915F7F /* COVI19-deplacementTests.xctest */,
 				66CE6F5E2442773400915F7F /* COVI19-deplacementUITests.xctest */,
 			);
@@ -101,9 +139,13 @@
 		66CE6F3C2442772F00915F7F /* COVI19-deplacement */ = {
 			isa = PBXGroup;
 			children = (
+				66E99A7F2443874E00595FF9 /* Misc */,
+				66CE6F7F24431DBD00915F7F /* Helper */,
+				66CE6F7624430D1D00915F7F /* Entities */,
+				66CE6F8324433CB100915F7F /* Views */,
 				66CE6F3D2442772F00915F7F /* AppDelegate.swift */,
 				66CE6F3F2442772F00915F7F /* SceneDelegate.swift */,
-				66CE6F442442772F00915F7F /* ContentView.swift */,
+				66CE6F562442773400915F7F /* COVI19-deplacementTests */,
 				66CE6F462442773300915F7F /* Assets.xcassets */,
 				66CE6F4B2442773300915F7F /* LaunchScreen.storyboard */,
 				66CE6F4E2442773300915F7F /* Info.plist */,
@@ -139,6 +181,84 @@
 			path = "COVI19-deplacementUITests";
 			sourceTree = "<group>";
 		};
+		66CE6F7624430D1D00915F7F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				66CE6F7924430EFF00915F7F /* Author.swift */,
+				66CE6F7D244318D500915F7F /* Address.swift */,
+				66CE6F9324435D6500915F7F /* Reasons.swift */,
+				66E99A752443690000595FF9 /* Attestation.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		66CE6F7F24431DBD00915F7F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				66CE6F8124431DCA00915F7F /* KeyboardModifier.swift */,
+				66CE6F8F2443538400915F7F /* PDFHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		66CE6F8324433CB100915F7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66CE6F442442772F00915F7F /* ContentView.swift */,
+				66CE6F8C2443528300915F7F /* Attestation */,
+				66CE6F8624434B7E00915F7F /* Author */,
+				66CE6F8924434EEC00915F7F /* Information */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66CE6F8624434B7E00915F7F /* Author */ = {
+			isa = PBXGroup;
+			children = (
+				66CE6F7B244311E100915F7F /* AddAuthorView.swift */,
+				66CE6F8424433CD600915F7F /* AuthorsView.swift */,
+				66CE6F8724434B9C00915F7F /* AuthorsRow.swift */,
+			);
+			path = Author;
+			sourceTree = "<group>";
+		};
+		66CE6F8924434EEC00915F7F /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				66CE6F8A24434F0200915F7F /* InformationsView.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		66CE6F8C2443528300915F7F /* Attestation */ = {
+			isa = PBXGroup;
+			children = (
+				66E99A802443881000595FF9 /* Detail */,
+				66CE6F8D244352C900915F7F /* AddAttestationView.swift */,
+				66E99A7924436FDD00595FF9 /* AttestationList.swift */,
+				66E99A7B2443767E00595FF9 /* AttestationItemView.swift */,
+			);
+			path = Attestation;
+			sourceTree = "<group>";
+		};
+		66E99A7F2443874E00595FF9 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				66E99A7724436ED400595FF9 /* certificate.pdf */,
+				66E99A812443978100595FF9 /* Localizable.strings */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		66E99A802443881000595FF9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				66E99A7D244379FF00595FF9 /* AttestationDetailView.swift */,
+				66CE6F91244353D000915F7F /* PDFView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,8 +275,12 @@
 			dependencies = (
 			);
 			name = "COVI19-deplacement";
+			packageProductDependencies = (
+				66CE6F712442779100915F7F /* SwifterSwift */,
+				66CE6F74244277BF00915F7F /* PLogger */,
+			);
 			productName = "COVI19-deplacement";
-			productReference = 66CE6F3A2442772F00915F7F /* COVI19-deplacement.app */;
+			productReference = 66CE6F3A2442772F00915F7F /* Attestation.app */;
 			productType = "com.apple.product-type.application";
 		};
 		66CE6F522442773400915F7F /* COVI19-deplacementTests */ = {
@@ -225,8 +349,13 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 66CE6F312442772F00915F7F;
+			packageReferences = (
+				66CE6F702442779100915F7F /* XCRemoteSwiftPackageReference "SwifterSwift" */,
+				66CE6F73244277BF00915F7F /* XCRemoteSwiftPackageReference "PLogger" */,
+			);
 			productRefGroup = 66CE6F3B2442772F00915F7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,6 +374,8 @@
 			files = (
 				66CE6F4D2442773300915F7F /* LaunchScreen.storyboard in Resources */,
 				66CE6F4A2442773300915F7F /* Preview Assets.xcassets in Resources */,
+				66E99A822443978100595FF9 /* Localizable.strings in Resources */,
+				66E99A7824436ED400595FF9 /* certificate.pdf in Resources */,
 				66CE6F472442773300915F7F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +401,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E99A7E244379FF00595FF9 /* AttestationDetailView.swift in Sources */,
+				66E99A7C2443767E00595FF9 /* AttestationItemView.swift in Sources */,
+				66CE6F8524433CD600915F7F /* AuthorsView.swift in Sources */,
+				66CE6F9424435D6500915F7F /* Reasons.swift in Sources */,
+				66E99A7A24436FDD00595FF9 /* AttestationList.swift in Sources */,
+				66CE6F8824434B9C00915F7F /* AuthorsRow.swift in Sources */,
 				66CE6F3E2442772F00915F7F /* AppDelegate.swift in Sources */,
+				66CE6F8224431DCA00915F7F /* KeyboardModifier.swift in Sources */,
+				66CE6F902443538400915F7F /* PDFHelper.swift in Sources */,
 				66CE6F432442772F00915F7F /* COVI19_deplacement.xcdatamodeld in Sources */,
+				66CE6F8B24434F0200915F7F /* InformationsView.swift in Sources */,
+				66CE6F92244353D000915F7F /* PDFView.swift in Sources */,
 				66CE6F452442772F00915F7F /* ContentView.swift in Sources */,
+				66CE6F8E244352C900915F7F /* AddAttestationView.swift in Sources */,
+				66CE6F7C244311E100915F7F /* AddAuthorView.swift in Sources */,
+				66E99A762443690000595FF9 /* Attestation.swift in Sources */,
 				66CE6F402442772F00915F7F /* SceneDelegate.swift in Sources */,
+				66CE6F7A24430EFF00915F7F /* Author.swift in Sources */,
+				66CE6F7E244318D500915F7F /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +459,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				66CE6F4C2442773300915F7F /* Base */,
+				66E99A832443997100595FF9 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -370,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -384,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -424,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -448,7 +597,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Connectiv-IT.COVI19-deplacement";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Attestation;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,7 +617,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Connectiv-IT.COVI19-deplacement";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Attestation;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -598,6 +747,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66CE6F702442779100915F7F /* XCRemoteSwiftPackageReference "SwifterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwifterSwift/SwifterSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+		66CE6F73244277BF00915F7F /* XCRemoteSwiftPackageReference "PLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phoenisis/PLogger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66CE6F712442779100915F7F /* SwifterSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66CE6F702442779100915F7F /* XCRemoteSwiftPackageReference "SwifterSwift" */;
+			productName = SwifterSwift;
+		};
+		66CE6F74244277BF00915F7F /* PLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66CE6F73244277BF00915F7F /* XCRemoteSwiftPackageReference "PLogger" */;
+			productName = PLogger;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		66CE6F412442772F00915F7F /* COVI19_deplacement.xcdatamodeld */ = {
