@@ -35,6 +35,8 @@
 		66E99A852443A8D600595FF9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E99A872443A8D600595FF9 /* Localizable.strings */; };
 		66E99A8A2443BD0700595FF9 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99A892443BD0700595FF9 /* ActivityViewController.swift */; };
 		66E99A962443C89500595FF9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E99A982443C89500595FF9 /* Launch Screen.storyboard */; };
+		66E99AA2244456EA00595FF9 /* AttestationItemCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E99AA1244456EA00595FF9 /* AttestationItemCountDownView.swift */; };
+		66E99AA52444612200595FF9 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 66E99AA72444612200595FF9 /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,9 @@
 		66E99A972443C89500595FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		66E99A9A2443C89800595FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
 		66E99A9C2443C89A00595FF9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
+		66E99AA1244456EA00595FF9 /* AttestationItemCountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestationItemCountDownView.swift; sourceTree = "<group>"; };
+		66E99AA62444612200595FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		66E99AA82444612700595FF9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = fr; path = fr.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +245,7 @@
 				66CE6F8D244352C900915F7F /* AddAttestationView.swift */,
 				66E99A7924436FDD00595FF9 /* AttestationList.swift */,
 				66E99A7B2443767E00595FF9 /* AttestationItemView.swift */,
+				66E99AA1244456EA00595FF9 /* AttestationItemCountDownView.swift */,
 			);
 			path = Attestation;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 			children = (
 				66E99A7724436ED400595FF9 /* certificate.pdf */,
 				66E99A872443A8D600595FF9 /* Localizable.strings */,
+				66E99AA72444612200595FF9 /* Localizable.stringsdict */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -378,6 +385,7 @@
 				66E99A7824436ED400595FF9 /* certificate.pdf in Resources */,
 				66E99A962443C89500595FF9 /* Launch Screen.storyboard in Resources */,
 				66CE6F472442773300915F7F /* Assets.xcassets in Resources */,
+				66E99AA52444612200595FF9 /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +422,7 @@
 				66CE6F902443538400915F7F /* PDFHelper.swift in Sources */,
 				66CE6F432442772F00915F7F /* attestation_COVID.xcdatamodeld in Sources */,
 				66CE6F8B24434F0200915F7F /* InformationsView.swift in Sources */,
+				66E99AA2244456EA00595FF9 /* AttestationItemCountDownView.swift in Sources */,
 				66CE6F92244353D000915F7F /* PDFView.swift in Sources */,
 				66CE6F452442772F00915F7F /* ContentView.swift in Sources */,
 				66CE6F8E244352C900915F7F /* AddAttestationView.swift in Sources */,
@@ -474,6 +483,15 @@
 				66E99A9C2443C89A00595FF9 /* fr */,
 			);
 			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+		66E99AA72444612200595FF9 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E99AA62444612200595FF9 /* en */,
+				66E99AA82444612700595FF9 /* fr */,
+			);
+			name = Localizable.stringsdict;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

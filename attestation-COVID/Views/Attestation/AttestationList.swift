@@ -11,8 +11,8 @@ import CoreData
 
 struct AttestationList: View {
 	@Environment(\.managedObjectContext) var managedContext
-	@FetchRequest(entity: Attestation.entity(), sortDescriptors: [], predicate: NSPredicate(format: "expiredAt >= %@", argumentArray: [Date()])) var activeAttestations: FetchedResults<Attestation>
-	@FetchRequest(entity: Attestation.entity(), sortDescriptors: [], predicate: NSPredicate(format: "expiredAt < %@", argumentArray: [Date()])) var oldAttestations: FetchedResults<Attestation>
+	@FetchRequest(entity: Attestation.entity(), sortDescriptors: [NSSortDescriptor(key: "createdAt", ascending: false)], predicate: NSPredicate(format: "expiredAt >= %@", argumentArray: [Date()])) var activeAttestations: FetchedResults<Attestation>
+	@FetchRequest(entity: Attestation.entity(), sortDescriptors: [NSSortDescriptor(key: "createdAt", ascending: false)], predicate: NSPredicate(format: "expiredAt < %@", argumentArray: [Date()])) var oldAttestations: FetchedResults<Attestation>
 	
 	@State private var showModal = false
 	
@@ -27,7 +27,7 @@ struct AttestationList: View {
 							Button(action: {
 								self.showModal.toggle()
 							}) {
-								AttestationItemView(attestation: attestation)
+								AttestationItemCountDownView(attestation: attestation)
 							}.sheet(isPresented: self.$showModal){
 								AttestationDetailView(attestation: attestation)
 							}

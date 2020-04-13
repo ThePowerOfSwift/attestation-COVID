@@ -114,14 +114,15 @@ struct AddAttestationView: View {
 		}()
 	
 		
-		let when = "Créé le: \(creationDate) a \(creationTime);"
+		let when = "Cree le: \(creationDate) a \(creationTime);"
 		let person = "Nom: \(author.lastname ?? ""); Prenom: \(author.firstname ?? ""); Naissance: \(author.birthDate?.string(withFormat: "dd/MM/yyyy") ?? "") a \(author.birthPlace ?? "");"
-		let address = "Adresse: \(author.address?.streetname ?? ""), \(author.address?.zipcode ?? ""), \(author.address?.city ?? "");"
+		let address = "Adresse: \(author.address?.streetname ?? "") \(author.address?.zipcode ?? "") \(author.address?.city ?? "");"
+		let time = "Sortie: \(creationDate) a \(creationTime);"
 		let reason: String = {
 			return "Motifs: \(reasons.joined(separator: "-"))"
 		}()
 		
-		return "\(when) \(person) \(address) \(reason)"
+		return "\(when) \(person) \(address) \(time) \(reason)"
     }
 	
 	func generatePDF(now: Date) -> Data? {
